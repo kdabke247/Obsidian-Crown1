@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find upcoming guild events and generate new event ideas.">
+    <meta name="keywords" content="guild events, raids, community night, event generator">
+
+    <title>The Obsidian Crown - Events</title>
+
+    <!-- Google Fonts & CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                THE OBSIDIAN CROWN
+            </a>
+            <nav class="desktop-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="roster.html" class="nav-link">Roster</a>
+                <a href="events.html" class="nav-link active">Events</a>
+                <a href="join.html" class="nav-link">Join Us</a>
+            </nav>
+            <!-- Mobile Menu Button (REMOVED) -->
+        </div>
+        <!-- Mobile Menu (hidden by default) -->
+        <nav id="mobile-menu" class="mobile-menu">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About Us</a>
+            <a href="roster.html" class="nav-link">Roster</a>
+            <a href="events.html" class="nav-link active">Events</a>
+            <a href="join.html" class="nav-link">Join Us</a>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <div class="container">
+            <h2 class="page-title">Upcoming Expeditions</h2>
+            <p>Coordination is key. Check here for all scheduled guild events, from raids to community game nights.</p>
+            
+            <div class="event-grid">
+                <div class="event-card">
+                    <h3 class="card-title">Weekly Raid: Serpent's Spire</h3>
+                    <p class="card-subtitle">Date: Every Friday, 8:00 PM EST</p>
+                    <p>Prepare for our weekly assault on the Serpent's Spire. Sign-ups are in Discord.</p>
+                </div>
+                <div class="event-card">
+                    <h3 class="card-title">Community Night: Jackbox Games</h3>
+                    <p class="card-subtitle">Date: Saturday, October 11th, 9:00 PM EST</p>
+                    <p>Join us for a relaxing night of party games and laughs.</p>
+                </div>
+            </div>
+
+            <!-- Static Event Ideas Section -->
+            <!-- This section replaces the complex Gemini API generator -->
+            <div class="static-feature">
+                <h2 class="section-title">✨ Event Ideas</h2>
+                <p class="page-subtitle">Here are some creative ideas for guild adventures!</p>
+                
+                <div class="event-grid">
+                    <!-- Hard-coded Idea 1 -->
+                    <div class="event-card gemini-card">
+                        <h3 class="card-title">Dune: Spice Harvest Run</h3>
+                        <p class="card-description">A high-risk, high-reward event focused on teamwork to harvest a massive amount of Spice while fending off rival players and sandworms.</p>
+                        <div class="card-steps">
+                            <h4>How to Organize:</h4>
+                            <ul>
+                                <li>Scout a high-yield Spice field.</li>
+                                <li>Assign roles: Harvester operators, guards, and scouts.</li>
+                                <li>Set a time limit and a collection goal.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Hard-coded Idea 2 -->
+                    <div class="event-card gemini-card">
+                        <h3 class="card-title">Arrakis Survival Challenge</h3>
+                        <p class="card-description">Teams of two are dropped in a remote desert location with basic gear. The last team to return to base or survive the longest wins.</p>
+                         <div class="card-steps">
+                            <h4>How to Organize:</h4>
+                            <ul>
+                                <li>Define safe zones and starting points.</li>
+                                <li>Set clear rules (e.g., no thopters).</li>
+                                <li>Have an admin spectate the event.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Hard-coded Idea 3 -->
+                    <div class="event-card gemini-card">
+                        <h3 class="card-title">Guild Base Building Contest</h3>
+                        <p class="card-description">A casual, social event where members are given a specific theme (e.g., "Fortress," "Spice Den") and a set amount of resources to build the best-looking base in a week.</p>
+                         <div class="card-steps">
+                            <h4>How to Organize:</h4>
+                            <ul>
+                                <li>Announce the theme and rules.</li>
+                                <li>Set a submission deadline.</li>
+                                <li>Hold a "parade of bases" to vote.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 The Obsidian Crown. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="mailto:contact@theobsidiancrown.gg">contact@theobsidiancrown.gg</a>
+                <span class="footer-separator">|</span>
+                <a href="https://dune.com/" target="_blank" rel="noopener noreferrer">Official Dune Website</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- SCRIPT TAG (REMOVED) -->
+    <!-- We no longer need gemini-events.js -->
+</body>
+</html>
